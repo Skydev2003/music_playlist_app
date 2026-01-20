@@ -60,6 +60,11 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 ),
                 title: Text(album.name ?? 'Unknown'),
                 subtitle: Text(album.artistName ?? 'Unknown Artist'),
+                trailing:  IconButton.outlined(
+                  onPressed:() {},
+                  icon: Icon(Icons.play_arrow),
+                  iconSize: 30,
+                ),
               );
             },
           );
