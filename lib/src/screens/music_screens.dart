@@ -65,7 +65,7 @@ class _MusicScreensState extends ConsumerState<MusicScreens> {
     return Scaffold(
       backgroundColor: const Color(0xFF1F2937),
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: const Color.fromARGB(0, 255, 255, 255),
         elevation: 0,
         centerTitle: true,
       
